@@ -179,6 +179,11 @@ footer .social-icons a {
   color: rgb(0, 0, 0);
   font-size: 2rem;
 }
+@media screen and (max-width: 1340px) {
+  main aside {
+    display: none;
+  }
+}
 
 @media only screen and (max-width: 1024px) {
   .landingimg img {
@@ -189,6 +194,7 @@ footer .social-icons a {
     display: none;
   }
 }
+
 @media screen and (max-width: 1016px) {
   .navbarContainer {
     width: 100%;
