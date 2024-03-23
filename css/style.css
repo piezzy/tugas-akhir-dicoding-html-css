@@ -211,6 +211,30 @@ footer .social-icons a {
     font-size: 1.2rem;
   }
 }
+
+@media screen and (max-width: 890px) {
+  .navbarContainer {
+    width: 100%;
+    padding: 0;
+  }
+  main .landing .landingDesc {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  main .landing .landingDesc {
+    flex-direction: column;
+  }
+  main .landing .landingDesc .title {
+    font-size: 2rem;
+  }
+
+  main .landing .landingDesc p {
+    font-size: 1rem;
+  }
+}
+
 @media only screen and (max-width: 768px) {
   .navbarContainer {
     width: 100%;
